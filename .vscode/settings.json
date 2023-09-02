@@ -1,0 +1,7 @@
+{
+  "eslint.workingDirectories": [
+    "./src",
+    "./src/server",
+    "./src/client",
+  ]
+}
