@@ -14,9 +14,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
-    "start-server-dev": "ts-node-dev -r dotenv/config --project ./src/tsconfig.server.json ./src/server/index.ts",
-    "lint": "eslint \"src/**/{*.ts, *.tsx}\"",
-    "build-server": "tsc ./src/tsconfig.server.json"
+    "start-server-dev": "ts-node-dev index.ts",
+    "lint": "eslint --ext .ts .",
+    "start-server": "node build/index.js"
   },
   "author": "apndx",
   "license": "MIT",
