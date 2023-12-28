@@ -4,19 +4,19 @@
 Start server in [dev mode](http://localhost:3001/):
 
 ```
-npm run start-server-dev
+npm run start:server:dev
 ```
 
 Build server production version
 
 ```
-npm run tsc
+npm run build:server
 ```
 
 Run production version
 
 ```
-npm run start-server
+npm run start:server
 ```
 
 Linting
